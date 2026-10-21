@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Raven Gail Manalese| MyPortfolio</title>
+    <meta name="description"
+        content="Portfolio of Raven Gail Manalese, a third-year BS Computer Science student learning web development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Figtree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- NAV -->
+    <header class="nav-wrap">
+        <nav class="nav" aria-label="Main">
+            <a href="#home" class="brand"><span class="brand-mark">RM</span><span
+                    class="brand-name">MyPortfolio.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#journey">My Journey</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#reflection">Reflection</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
+                    <span class="theme-dot" aria-hidden="true"></span>
+                    <span class="theme-label">Light Mode</span>
+                </button>
+                <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="navLinks">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- HERO / ABOUT -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="portrait">
+                    <span class="blob blob-a" aria-hidden="true"></span>
+                    <span class="blob blob-b" aria-hidden="true"></span>
+                    <div class="portrait-ring">
+                        <img src="eh.jpg" alt="Portrait of Raven Gail Manalese">
+                    </div>
+                </div>
+
+                <div class="hero-copy">
+                    <span class="pill">About Me</span>
+                    <h1>Learning how websites work, one page at a time.</h1>
+                    <button type="button" class="btn btn-outline about-toggle" id="aboutToggle" aria-expanded="true"
+                        aria-controls="aboutContent">Hide details</button>
+
+                    <div class="about-content" id="aboutContent">
+                        <div class="about-inner">
+
+                            <p class="lead" id="about">My name is Raven Gail Manalese, a third-year BS Computer Science
+                                student. I
+                                enjoy learning about technology and discovering how websites work.</p>
+                            <p class="lead">Before I take Web Development Subject, I had no experience in creating
+                                any websites but now I can create my own website in just a simple way. I still want to
+                                learn more about this subject.</p>
+
+                            <dl class="info-card">
+                                <div>
+                                    <dt>Name</dt>
+                                    <dd>Raven Gail Manalese</dd>
+                                </div>
+                                <div>
+                                    <dt>Course</dt>
+                                    <dd>BS Computer Science</dd>
+                                </div>
+                                <div>
+                                    <dt>Year level</dt>
+                                    <dd>3rd Year</dd>
+                                </div>
+                                <div>
+                                    <dt>Interest</dt>
+                                    <dd>Matulog</dd>
+                                </div>
+                                <div class="wide">
+                                    <dt>Goal</dt>
+                                    <dd>Become a Billionaire</dd>
+                                </div>
+                            </dl>
+
+                            <div class="btn-row">
+                                <a href="#activities" class="btn btn-solid">See my activities</a>
+                                <a href="#reflection" class="btn btn-outline">Read my reflection</a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section class="section" id="journey">
+            <div class="container">
+                <header class="section-head">
+                    <h2>My Learning <em>Journey</em></h2>
+                    <p>These are some important topics I learned throughout the semester.</p>
+                </header>
+
+                <div class="grid grid-3">
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <h1>HTML</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>For my reflection in HTML, nung una nadadalian pa
+                                ako and nakakaenjoy siya gawin and natuto po ako dito na mag arrange ng maayos ng code
+                                sa HTML.</p>
+                        </details>
+                    </article>
+
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">{ }</span>
+                        <h1>CSS</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>For my reflection in CSS, natuwa ako kasi pwede na ako mag design and mas
+                                maganda na siya na mata but nakakalito minsan and natuto po ako dito sa mga color
+                                combination hehe dating hindi tumitingin sa color
+                                palette yung "bahala na si batman" HAHAHHA ngayon gumagamit nang
+                                color palette para mas maganda napo yung color combination.</p>
+                        </details>
+                    </article>
+
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">JS</span>
+                        <h1>JavaScript DOM</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>For my reflection in Javascript,
+                                dito napo ako nahirapan pero nagegets ko naman po yung mga function ng every code po,
+                                so far need kopa po ito aralin pa.</p>
+                        </details>
+                    </article>
+
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">$</span>
+                        <h1>jQuery</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>Nahirapan napo ako dito sir hehe </p>
+                        </details>
+                    </article>
+
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">&#8644;</span>
+                        <h1>AJAX</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>Nahirapan din po ako dito sir hihi</p>
+                        </details>
+                    </article>
+
+                    <article class="card topic">
+                        <span class="topic-icon" aria-hidden="true">&#8593;</span>
+                        <h1>Deployment</h1>
+                        <details>
+                            <summary>Read my reflection</summary>
+                            <p>For deployment naman po is first time kopo
+                                ito hehe so far nakuha ko naman po if how to deploy a website.</p>
+                        </details>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACTIVITIES -->
+        <section class="section" id="activities">
+            <div class="container">
+                <header class="section-head">
+                    <h2>My <em>Activities</em></h2>
+                    <p>Each activity represents a skill I practiced during the semester.</p>
+                </header>
+
+                <div class="grid grid-3">
+                    <article class="card activity">
+                        <h3>Activity 3</h3>
+                        <div class="thumb thumb-1">
+                            <span>Semantic</span>
+                            <small>Midterm</small>
+                            <a class="go" href="act4semantic/Manalese/myprofile.html"
+                                aria-label="Open Activity 3">&#8599;</a>
+                        </div>
+                    </article>
+
+                    <article class="card activity">
+                        <h3>Activity 4</h3>
+                        <div class="thumb thumb-2">
+                            <span>Semantic</span>
+                            <small>Midterm</small>
+                            <a class="go" href="act4semantic/Manalese/home.html"
+                                aria-label="Open Activity 4">&#8599;</a>
+                        </div>
+                    </article>
+
+                    <article class="card activity">
+                        <h3>Activity 5</h3>
+                        <div class="thumb thumb-3">
+                            <span>Landing Page</span>
+                            <small>Midterm</small>
+                            <a class="go" href="act5landingpage/Manalese_Act5/home.html"
+                                aria-label="Open Activity 5">&#8599;</a>
+                        </div>
+                    </article>
+
+                    <article class="card activity">
+                        <h3>Activity 1 </h3>
+                        <div class="thumb thumb-4">
+                            <span>HTML DOM</span>
+                            <small>Finals</small>
+                            <a class="go" href="activity1/MANALESE_FINALS_ACT1/index1.html"
+                                aria-label="Open Activity 1">&#8599;</a>
+                        </div>
+                    </article>
+
+                    <article class="card activity">
+                        <h3>Activity 2</h3>
+                        <div class="thumb thumb-5">
+                            <span>Asynchronous</span>
+                            <small>Finals</small>
+                            <a class="go" href="manalesefinalsactivity2/MANALESE_FINALS_ACTIVITY2/index2.html"
+                                aria-label="Open Activity 2">&#8599;</a>
+                        </div>
+                    </article>
+
+                    <article class="card activity">
+                        <h3>Activity 3</h3>
+                        <div class="thumb thumb-3">
+                            <span>AJAX</span>
+                            <small>Finals</small>
+                            <a class="go" href="activity3ajax/MANALESE_FINALS_ACT3/index3.html"
+                                aria-label="Open Activity 3">&#8599;</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="container">
+                <header class="section-head">
+                    <h2>My Technical <em>Skills</em></h2>
+                    <p>How comfortable I feel with each topic right now.</p>
+                </header>
+
+                <div class="grid grid-4">
+                    <div class="card skill" data-level="90">
+                        <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <h3>HTML</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"
+                            aria-label="HTML skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="85">
+                        <span class="skill-icon" aria-hidden="true">{ }</span>
+                        <h3>CSS</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
+                            aria-label="CSS skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="78">
+                        <span class="skill-icon" aria-hidden="true">JS</span>
+                        <h3>JavaScript</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78"
+                            aria-label="JavaScript skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="72">
+                        <span class="skill-icon" aria-hidden="true">$</span>
+                        <h3>jQuery</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="72"
+                            aria-label="jQuery skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="68">
+                        <span class="skill-icon" aria-hidden="true">&#8644;</span>
+                        <h3>AJAX</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68"
+                            aria-label="AJAX skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="75">
+                        <span class="skill-icon" aria-hidden="true">&#8593;</span>
+                        <h3>Deployment</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"
+                            aria-label="Deployment skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                    <div class="card skill" data-level="80">
+                        <span class="skill-icon" aria-hidden="true">&#9633;</span>
+                        <h3>Responsive Design</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
+                            aria-label="Responsive design skill level"><span class="fill"><b class="pct">0%</b></span>
+                        </div>
+                    </div>
+                    <div class="card skill" data-level="70">
+                        <span class="skill-icon" aria-hidden="true">&#10003;</span>
+                        <h3>Debugging</h3>
+                        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"
+                            aria-label="Debugging skill level"><span class="fill"><b class="pct">0%</b></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REFLECTION -->
+        <section class="section" id="reflection">
+            <div class="container">
+                <header class="section-head">
+                    <h2>My <em>Reflection</em></h2>
+                    <p>What this subject taught me, and where I want to go next.</p>
+                </header>
+
+                <div class="grid grid-3">
+                    <article class="card quote">
+                        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                        <h3>What I learned</h3>
+                        <p> What I learned from this subject is how to create a website
+                            from the easiest to the hardest parts. I really appreciate
+                            how Sir Ralph guides us and helps us as much as he can.
+                            He does not want anyone to be left behind in every lesson he teaches.</p>
+                    </article>
+                    <article class="card quote">
+                        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                        <h3>What was hard</h3>
+                        <p>The hardest part for me was when we reached the final lessons,
+                            especially JavaScript, DOM, and AJAX. I still find these topics a little difficult to
+                            understand.</p>
+                    </article>
+                    <article class="card quote">
+                        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                        <h3>What comes next</h3>
+                        <p>I want to improve my skills in developing websites.
+                            Who knows, maybe this is my passion, hehe, just kidding!
+                            I just want to learn more about creating websites because I know
+                            these skills will be useful when I enter the industry.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-bottom">
+            <span>&copy; <span id="year">2026</span> Raven Gail Manalese. All rights reserved.</span>
+            <a href="#home">Back to top</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
