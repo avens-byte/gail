@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 450px;
+    background-color: beige;
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#image1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#second {
+    font-size: large;
+    margin: 20px 0 10px;
+    color: black;
+}
+
+#third {
+    font-size: large;
+    color: red;
+}
+
+#form {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#input1 {
+    width: 90%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: larger;
+    outline: none;
+}
+
+#input1:focus {
+    border: 2px solid;
+    background-color: aqua;
+}
+
+#input:select {
+    padding: 12px;
+    width: 50%;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+button {
+    padding: 13px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(88, 124, 155);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#indicator {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#year {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: large;
+    outline: none;
+    background-color: white;
+}
+
+#display {
+    color: mediumaquamarine;
+}

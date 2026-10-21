@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .card {
+        background-color: rgb(178, 151, 190);
+        margin: 300px;
+        border: solid 2px rgb(111, 0, 255);
+        border-radius: 25px;
+        padding: 25px;
+    }
+
+    button {
+        padding: 15px 20px;
+        background-color: rgb(250, 196, 255);
+        color: rgb(31, 19, 28);
+        border-radius: 25px;
+        border: none;
+    }
+
+    .studinfo {
+        text-align: left;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .course {
+        text-align: left;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .studlist {
+        text-align: left;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    th {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid;
+        width: 50%;
+    }
+</style>
+
+<body>
+
+    <div class="card">
+        <h1 id="message"> Welcome, Students!</h1>
+
+        <p> Welcome to my interactive profile! </p>
+
+        <div class="studinfo">
+
+            <h2> Student Information</h2>
+            <p>Name: Manalese, Raven Gail R.</p>
+            <p>Course: BSCS</p>
+            <p> Year Level: 3rd Year</p>
+
+        </div>
+
+
+        <br><br>
+
+        <button id="btnChange"> Change Title </button>
+        <button id="btnHide"> Hide Profile </button>
+        <button id="btnShow"> Show Profile </button>
+
+        <p id="message1"> interactive Buttons above </p>
+
+        <br> <br>
+
+        <div class="course">
+
+
+            <h2>Choose Your Course</h2>
+
+            <select id="course">
+                <option value="BSIT"> BSIT</option>
+                <option value="BSCS"> BSCS</option>
+                <option value="BECED">BECED</option>
+            </select>
+
+            <p id="message3"> ....</p>
+            <br> <br>
+
+        </div>
+
+        <div class="studlist">
+            <h2> Student List </h2>
+            <p>Registered Students</p>
+            <table border="2" align="center" id="table">
+                <tr>
+                    <th> NUMBER </th>
+                    <th> NAME </th>
+                    <th> COURSE</th>
+                    <th> YEAR LEVEL </th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Juan</td>
+                    <td>BSIT</td>
+                    <td>3rd Year</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Maria</td>
+                    <td>BSCS</td>
+                    <td>3rd Year</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Pedro</td>
+                    <td>BECED</td>
+                    <td>4thYear</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Ana</td>
+                    <td>BSCS</td>
+                    <td>4th Year</td>
+                </tr>
+            </table>
+
+            <p>End of Students List.</p>
+        </div>
+
+
+        <br><br>
+
+        <button id="btnOdd"> Apply Odd Rows </button>
+        <button id="btnEven"> Apply Even Rows </button>
+        <button id="btnhidetbl"> Hide </button>
+        <button id="btnshowtbl"> Show </button>
+
+        <p id="message3"> interactive Buttons above </p>
+
+        <br> <br>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

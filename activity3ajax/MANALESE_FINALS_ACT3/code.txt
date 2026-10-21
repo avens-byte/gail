@@ -1,0 +1,199 @@
+java
+
+$(document).ready(function(){
+    $("#title").text("good morneng")
+
+    $("p.intro").css("color", "maroon")
+
+    //$("+").css("background","pink")
+
+    //$(".btn2").click(function(){
+       // $(this).css("background","blue")
+
+    //})
+
+        $("[href]").css("color","blue")
+
+        $("ul li:first-child").css("color", "pink")
+
+        //$("th").css("background","lavender")
+
+        $("tr:even").css("background","lightblue")
+
+        $("tr:odd").css("background","lightgreen")
+
+
+        $("#btn").click(function(){
+            $("#message").text("you click the button!")
+        })
+
+        $("#btn").dblclick(function(){
+            $("#message").text("you double click the button!")
+        })
+
+        $("#btn").mouseenter(function(){
+            $("#message").text("your mouse is reach the button")
+        })
+
+          $("#btn").mouseleave(function(){
+            $("#message").text("your mouse is leave the button")
+        })
+
+         $("#btn").mousedown(function(){
+            $(this).css("background","lavender")
+        })
+
+        $("#btn").mouseup(function(){
+            $(this).css("background","voilet")
+        })
+
+        $("#name").focus(function(){
+            $("#message").text("you select the textbox")
+            $(this).css("background","violet")
+        })
+
+        $("#name").blur(function(){
+            $("#message").text("you leave the textbox")
+            $(this).css("background","lavender")
+        })
+
+         $("#course").change(function(){
+            $("#message").text($(this).val())
+        })
+
+         $("#btn2").click(function(){
+            $("#table").hide("slow")
+        })
+
+        $("#btn2").dblclick(function(){
+            $("#table").show(2000)
+        })
+})
+
+
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 45px;
+        }
+
+        .card{
+            background-color: rgb(178, 151, 190);
+            margin: auto;
+            border: solid 2px rgb(111, 0, 255);
+            border-radius: 25px;
+            padding: 25px;
+        }
+
+        button{
+            padding: 15px 20px;
+            background-color: rgb(203, 112, 221);
+            color: rgb(155, 2, 117);
+            border-radius: 25px;
+            border: none;
+        }
+
+    </style>
+<body>
+
+    <div class="card">
+
+        <h1 id="title"> HELLO BSCS31A</h1>
+
+        <p id="message"> Output: </p>
+        
+        <a href="#" > Click me</a>
+
+            <br><br>
+
+        <table border="2" align="center" id="table">
+            <tr>
+                <th> SAMPLE DATA</th>
+                <th> SAMPLE DATA</th>
+                <th> SAMPLE DATA</th>
+                <th> SAMPLE DATA</th>
+                <th> SAMPLE DATA</th>
+            </tr>
+
+            <tr>
+                <th>DATA1</th>
+                <th>DATA2</th>
+                <th>DATA3</th>
+                <th>DATA4</th>
+                <th>DATA5</th>
+            </tr>
+
+            <tr>
+                <th>DATA1</th>
+                <th>DATA2</th>
+                <th>DATA3</th>
+                <th>DATA4</th>
+                <th>DATA5</th>
+            </tr>
+
+            <tr>
+                <th>DATA1</th>
+                <th>DATA2</th>
+                <th>DATA3</th>
+                <th>DATA4</th>
+                <th>DATA5</th>
+            </tr>
+
+            <tr>
+                <th>DATA1</th>
+                <th>DATA2</th>
+                <th>DATA3</th>
+                <th>DATA4</th>
+                <th>DATA5</th>
+            </tr>
+        </table>
+
+        <p class="intro"> Welcome to JQuery</p>
+
+        <p> HALLLLLLOOOOOOOOOOOOO </p>
+
+        <input type="text" id="name" placeholder="Type your name ">
+
+        <br><br>
+        
+        <button id="btn"> click me</button>
+
+        <br><br>
+
+        <button id="btn2"> Sample Button</button>
+
+        <br> <br>
+        <select id="course">
+            <option value="BSIT"> BSIT</option>
+            <option value="BSCS"> BSCS</option>
+            <option value="BECED">BECED</option>
+        </select>
+
+         <br> <br>
+
+        <ul>
+            <li>Mango</li>
+            <li>Banana</li>
+        </ul>
+
+         <ul>
+            <li>smores</li>
+            <li>chocolate</li>
+        </ul>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

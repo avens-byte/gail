@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    
+ <header>
+        <h1> My Personal Website </h1> 
+        <p>Welcome to my personal Website</p>
+    </header>
+
+    <nav>
+        <a href="home.html"> HOME </a>
+        <a href="registration.html"> REGISTRATION</a>
+        <a href="grade.html"> GRADE</a>
+        <a href="profile.html"> PROFILE</a>
+    </nav>
+
+    <main>
+        <div class="form">
+            <h2>Student Registration Form</h2>
+            <form>
+                <div class="formgroup">
+                    <label>Student Name</label>
+                    <input type="text" placeholder="Enter Name">
+                </div>
+
+                <div class="formgroup">
+                    <label> Email</label>
+                    <input type="email" placeholder="Enter Email">
+                </div>
+
+                <div class="formgroup">
+                    <label> Password</label>
+                    <input type="password" placeholder="Enter Password">
+                </div>
+
+                <div class="formgroup">
+                    <label> Gendet</label>
+                    <div>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+
+                 <div class="formgroup">
+                    <label> Course</label>
+                    <select>
+                        <option value="" disabled selected> Select Course</option>
+                        <option value="BSCS"> BSCS </option>
+                        <option value="BSIT"> BSIT </option>
+                    </select>
+                </div>
+
+                <div class="formgroup">
+                    <label> Skills</label>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="html"> HTML</label>
+                        <label><input type="checkbox" value="css"> CSS</label>
+                        <label><input type="checkbox" value="javascript"> JavaScript</label>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>
